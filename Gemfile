@@ -32,4 +32,5 @@ end
 group :test do
 	gem 'rspec', '2.0.0.beta.19'
 	gem 'sqlite3-ruby', :require => 'sqlite3'
+#	gem 'spork'
 end
