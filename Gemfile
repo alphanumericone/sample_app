@@ -26,11 +26,12 @@ gem 'rails'
 # put test-only gems in this group so their generators
 # and rake tasks are available in development mode:
 group :development do
-	gem 'rspec-rails', '2.0.0.beta.19'
+	gem 'rspec-rails', '2.0.0.beta.20'
 	gem 'sqlite3-ruby', :require => 'sqlite3'
 end
 group :test do
-	gem 'rspec', '2.0.0.beta.19'
+	gem 'webrat'
+	gem 'rspec', '2.0.0.beta.20'
 	gem 'sqlite3-ruby', :require => 'sqlite3'
 #	gem 'spork'
 end
